@@ -1,4 +1,4 @@
-# autodata
+# autodata-crawler
 Content (car data and images) crawler for http://auto-data.net
 
 Can crawl car data and car images. Saves car data to structured xml files, so that it can be read later preferably to a database. Car images are saved into respective folders for each type of car.
@@ -15,6 +15,7 @@ Code was written in 2013, but I have recently (2015-10-26) tested it and it is r
 Usage: <from> (inclusive) <to> (exclusive) <per_process>
 Example: 0 19000 100
 ```
+Output folder: `./cardata`
 
 ### Car images crawler
 ```
@@ -22,6 +23,7 @@ Example: 0 19000 100
 Usage: <from> (inclusive) <to> (exclusive)
 Example: ./images.sh 1 10667 2>/dev/null 
 ```
+Output folder: `./images`
 
 ## Limitations (please contribute!)
 
