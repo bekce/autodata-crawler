@@ -17,6 +17,8 @@ Example: 0 19000 100
 ```
 Output folder: `./cardata`
 
+Numbers are taken from urls of the car data, such as `http://www.auto-data.net/tr/?f=showCar&car_id=xxxxx`. `cardata_starter.sh` creates multiple `cardata.sh` processes. The example (0 19000 100) creates 190 processes which handle 100 cars each.
+
 ### Car images crawler
 ```
 ./images.sh 
