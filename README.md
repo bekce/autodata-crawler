@@ -30,3 +30,4 @@ Output folder: `./images`
 ## Limitations (please contribute!)
 
 - It uses Turkish site (http://www.auto-data.net/tr/) so the data comes in Turkish. You can change the language parameter to your liking (even better, improve it to accept the language as a parameter and send a pull request!). You should probably change `images.sh:47` to correctly parse the car name.
+- It does not take advantage of HTTP/1.1 keep-alive feature, so it may be not very efficient.
